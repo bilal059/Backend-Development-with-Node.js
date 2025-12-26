@@ -1,0 +1,9 @@
+{
+  "watch": ["src"],
+  "ext": "js, json, ts",
+  "ignore": ["src/lib/*.js"],
+  "exec": "ts-node ./src/index.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
